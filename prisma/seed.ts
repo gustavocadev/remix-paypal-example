@@ -55,23 +55,5 @@ await prisma.product.createMany({
       is_subscription: false,
       price: 350,
     },
-    {
-      id: 'b94deaad-e6d-422b-b2cd-0b9e967bc9d2',
-      name: 'Suscripción Mensual',
-      description: 'Suscríbete y ten acceso a todo por un mes',
-      image_url: 'https://picsum.photos/seed/picsum/200/300',
-      is_subscription: true,
-      duration_months: 1,
-      price: 30,
-    },
-    {
-      id: '95ca9edc-c9eb-405c-bd0c-b1f3c16399ec',
-      name: 'Suscripción Anual',
-      description: 'Suscríbete con acceso todo un año, ahorra 2 meses',
-      image_url: 'https://picsum.photos/seed/picsum/200/300',
-      is_subscription: true,
-      duration_months: 12,
-      price: 300,
-    },
   ],
 });
